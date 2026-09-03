@@ -1,0 +1,9 @@
+refineria_id,nombre_complejo,operador,condado,area_metropolitana,capacidad_barriles_dia,complejidad_nelson,anio_apertura
+1,Baytown Refinery,ExxonMobil,Harris,Houston Metro,560500,14.5,1919
+2,Deer Park Energy Center,Pemex / PMI,Harris,Houston Ship Channel,312500,12.8,1929
+3,Pasadena Refinery,Chevron,Harris,Houston Metro,112200,10.2,1920
+4,Texas City Refining,Marathon Petroleum,Galveston,Galveston Bay / Houston,593000,15.3,1934
+5,Texas City Refinery,Valero,Galveston,Galveston Bay / Houston,260000,11.4,1908
+6,Sweeny Refinery,Phillips 66,Brazoria,Greater Houston Southwest,256000,13.2,1942
+7,Port Arthur Refinery,Motiva Enterprises,Jefferson,Texas Gulf Coast (Golden Triangle),630000,16.0,1903
+8,Beaumont Refinery,ExxonMobil,Jefferson,Texas Gulf Coast,619024,14.1,1903

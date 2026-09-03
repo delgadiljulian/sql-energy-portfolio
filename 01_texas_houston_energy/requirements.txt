@@ -1,0 +1,4 @@
+# Solo necesarios para descargar y convertir archivos oficiales de Excel.
+# La reconstrucción offline y las consultas usan la biblioteca estándar.
+openpyxl>=3.1,<4
+xlrd>=2.0.1,<3

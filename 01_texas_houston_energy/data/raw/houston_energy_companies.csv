@@ -1,0 +1,16 @@
+empresa_id,nombre,subsector,ticker,sede_houston_area,empleados_global,ingresos_anuales_b_usd,tipo_capital
+1,ExxonMobil,Supermajor (Integrada),XOM,Spring / Houston Campus,62000,344.5,Publica
+2,Chevron Corporation,Supermajor (Integrada),CVX,Downtown Houston,45600,200.9,Publica
+3,ConocoPhillips,Exploracion y Produccion (Upstream),COP,"Energy Corridor, Houston",9900,58.6,Publica
+4,EOG Resources,Shale Oil & Gas (Upstream),EOG,Downtown Houston,3000,24.2,Publica
+5,Occidental Petroleum (Oxy),Petroleo y Quimica,OXY,"Greenway Plaza, Houston",12000,28.3,Publica
+6,Kinder Morgan,Oleoductos y Gasoductos (Midstream),KMI,Downtown Houston,10500,15.2,Publica
+7,Enterprise Products Partners,Midland/Houston Pipeline & Frac,EPD,Midtown Houston,7300,49.7,Publica
+8,Baker Hughes,Servicios Petroleros y Turbomaquinaria,BKR,"Energy Corridor, Houston",55000,25.5,Publica
+9,Halliburton,Servicios de Perforacion y Fracturamiento,HAL,North Houston Parkway,48000,23.0,Publica
+10,Cheniere Energy,Exportacion Gas Natural Licuado (GNL),LNG,Downtown Houston,1550,20.4,Publica
+11,CenterPoint Energy,Distribucion Electrica y Gas Natural,CNP,Downtown Houston,9000,8.7,Publica
+12,NRG Energy,Generacion y Suministro Electrico,NRG,Downtown Houston,6800,28.8,Publica
+13,Phillips 66,Refinacion y Petroquimica (Downstream),PSX,"Energy Corridor, Houston",14000,149.8,Publica
+14,Valero Energy,Refinacion (Texas Gulf Coast),VLO,San Antonio / Houston Operations,10000,144.7,Publica
+15,Marathon Oil,Exploracion y Produccion (Upstream),MRO,Downtown Houston,1600,6.7,Publica

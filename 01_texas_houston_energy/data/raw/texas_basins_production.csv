@@ -1,0 +1,193 @@
+cuenca,condado,region,anio,mes,barriles_crudo_mes,mcf_gas_mes,pozos_productivos
+Permian Basin,Midland,West Texas,2023,1,1857400,5220800,24549
+Permian Basin,Reeves,West Texas,2023,1,1626480,6124400,19839
+Eagle Ford,Karnes,South Texas,2023,1,682720,1405600,7214
+Eagle Ford,DeWitt,South Texas,2023,1,542160,1255000,5911
+Haynesville,Panola,East Texas,2023,1,45180,9839200,4108
+Haynesville,Harrison,East Texas,2023,1,38152,8935600,3607
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,1,85340,210840,1102
+Gulf Coast,Brazoria,Upper Texas Coast,2023,1,92368,311240,1302
+Permian Basin,Midland,West Texas,2023,2,1864800,5241600,24598
+Permian Basin,Reeves,West Texas,2023,2,1632960,6148800,19879
+Eagle Ford,Karnes,South Texas,2023,2,685440,1411200,7228
+Eagle Ford,DeWitt,South Texas,2023,2,544320,1260000,5923
+Haynesville,Panola,East Texas,2023,2,45360,9878400,4116
+Haynesville,Harrison,East Texas,2023,2,38304,8971200,3614
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,2,85680,211680,1104
+Gulf Coast,Brazoria,Upper Texas Coast,2023,2,92736,312480,1305
+Permian Basin,Midland,West Texas,2023,3,1872200,5262400,24647
+Permian Basin,Reeves,West Texas,2023,3,1639440,6173200,19918
+Eagle Ford,Karnes,South Texas,2023,3,688160,1416800,7243
+Eagle Ford,DeWitt,South Texas,2023,3,546480,1265000,5935
+Haynesville,Panola,East Texas,2023,3,45540,9917600,4124
+Haynesville,Harrison,East Texas,2023,3,38456,9006800,3621
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,3,86020,212520,1106
+Gulf Coast,Brazoria,Upper Texas Coast,2023,3,93104,313720,1307
+Permian Basin,Midland,West Texas,2023,4,1879600,5283200,24696
+Permian Basin,Reeves,West Texas,2023,4,1645920,6197600,19958
+Eagle Ford,Karnes,South Texas,2023,4,690880,1422400,7257
+Eagle Ford,DeWitt,South Texas,2023,4,548640,1270000,5947
+Haynesville,Panola,East Texas,2023,4,45720,9956800,4132
+Haynesville,Harrison,East Texas,2023,4,38608,9042400,3628
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,4,86360,213360,1108
+Gulf Coast,Brazoria,Upper Texas Coast,2023,4,93472,314960,1310
+Permian Basin,Midland,West Texas,2023,5,1887000,5304000,24745
+Permian Basin,Reeves,West Texas,2023,5,1652400,6222000,19998
+Eagle Ford,Karnes,South Texas,2023,5,693600,1428000,7272
+Eagle Ford,DeWitt,South Texas,2023,5,550800,1275000,5959
+Haynesville,Panola,East Texas,2023,5,45900,9996000,4141
+Haynesville,Harrison,East Texas,2023,5,38760,9078000,3636
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,5,86700,214200,1111
+Gulf Coast,Brazoria,Upper Texas Coast,2023,5,93840,316200,1313
+Permian Basin,Midland,West Texas,2023,6,1894400,5324800,24794
+Permian Basin,Reeves,West Texas,2023,6,1658880,6246400,20037
+Eagle Ford,Karnes,South Texas,2023,6,696320,1433600,7286
+Eagle Ford,DeWitt,South Texas,2023,6,552960,1280000,5970
+Haynesville,Panola,East Texas,2023,6,46080,10035200,4149
+Haynesville,Harrison,East Texas,2023,6,38912,9113600,3643
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,6,87040,215040,1113
+Gulf Coast,Brazoria,Upper Texas Coast,2023,6,94208,317440,1315
+Permian Basin,Midland,West Texas,2023,7,1901800,5345600,24843
+Permian Basin,Reeves,West Texas,2023,7,1665360,6270800,20077
+Eagle Ford,Karnes,South Texas,2023,7,699040,1439200,7300
+Eagle Ford,DeWitt,South Texas,2023,7,555120,1285000,5982
+Haynesville,Panola,East Texas,2023,7,46260,10074400,4157
+Haynesville,Harrison,East Texas,2023,7,39064,9149200,3650
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,7,87380,215880,1115
+Gulf Coast,Brazoria,Upper Texas Coast,2023,7,94576,318680,1318
+Permian Basin,Midland,West Texas,2023,8,1909200,5366400,24892
+Permian Basin,Reeves,West Texas,2023,8,1671840,6295200,20116
+Eagle Ford,Karnes,South Texas,2023,8,701760,1444800,7315
+Eagle Ford,DeWitt,South Texas,2023,8,557280,1290000,5994
+Haynesville,Panola,East Texas,2023,8,46440,10113600,4165
+Haynesville,Harrison,East Texas,2023,8,39216,9184800,3657
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,8,87720,216720,1117
+Gulf Coast,Brazoria,Upper Texas Coast,2023,8,94944,319920,1320
+Permian Basin,Midland,West Texas,2023,9,1916600,5387200,24941
+Permian Basin,Reeves,West Texas,2023,9,1678320,6319600,20156
+Eagle Ford,Karnes,South Texas,2023,9,704480,1450400,7329
+Eagle Ford,DeWitt,South Texas,2023,9,559440,1295000,6006
+Haynesville,Panola,East Texas,2023,9,46620,10152800,4173
+Haynesville,Harrison,East Texas,2023,9,39368,9220400,3664
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,9,88060,217560,1119
+Gulf Coast,Brazoria,Upper Texas Coast,2023,9,95312,321160,1323
+Permian Basin,Midland,West Texas,2023,10,1924000,5408000,24990
+Permian Basin,Reeves,West Texas,2023,10,1684800,6344000,20196
+Eagle Ford,Karnes,South Texas,2023,10,707200,1456000,7344
+Eagle Ford,DeWitt,South Texas,2023,10,561600,1300000,6018
+Haynesville,Panola,East Texas,2023,10,46800,10192000,4182
+Haynesville,Harrison,East Texas,2023,10,39520,9256000,3672
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,10,88400,218400,1122
+Gulf Coast,Brazoria,Upper Texas Coast,2023,10,95680,322400,1326
+Permian Basin,Midland,West Texas,2023,11,1931400,5428800,25039
+Permian Basin,Reeves,West Texas,2023,11,1691280,6368400,20235
+Eagle Ford,Karnes,South Texas,2023,11,709920,1461600,7358
+Eagle Ford,DeWitt,South Texas,2023,11,563760,1305000,6029
+Haynesville,Panola,East Texas,2023,11,46980,10231200,4190
+Haynesville,Harrison,East Texas,2023,11,39672,9291600,3679
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,11,88740,219240,1124
+Gulf Coast,Brazoria,Upper Texas Coast,2023,11,96048,323640,1328
+Permian Basin,Midland,West Texas,2023,12,1938800,5449600,25088
+Permian Basin,Reeves,West Texas,2023,12,1697760,6392800,20275
+Eagle Ford,Karnes,South Texas,2023,12,712640,1467200,7372
+Eagle Ford,DeWitt,South Texas,2023,12,565920,1310000,6041
+Haynesville,Panola,East Texas,2023,12,47160,10270400,4198
+Haynesville,Harrison,East Texas,2023,12,39824,9327200,3686
+Gulf Coast,Harris (Houston),Upper Texas Coast,2023,12,89080,220080,1126
+Gulf Coast,Brazoria,Upper Texas Coast,2023,12,96416,324880,1331
+Permian Basin,Midland,West Texas,2024,1,1946200,5470400,25137
+Permian Basin,Reeves,West Texas,2024,1,1704240,6417200,20314
+Eagle Ford,Karnes,South Texas,2024,1,715360,1472800,7387
+Eagle Ford,DeWitt,South Texas,2024,1,568080,1315000,6053
+Haynesville,Panola,East Texas,2024,1,47340,10309600,4206
+Haynesville,Harrison,East Texas,2024,1,39976,9362800,3693
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,1,89420,220920,1128
+Gulf Coast,Brazoria,Upper Texas Coast,2024,1,96784,326120,1333
+Permian Basin,Midland,West Texas,2024,2,1953600,5491200,25186
+Permian Basin,Reeves,West Texas,2024,2,1710720,6441600,20354
+Eagle Ford,Karnes,South Texas,2024,2,718080,1478400,7401
+Eagle Ford,DeWitt,South Texas,2024,2,570240,1320000,6065
+Haynesville,Panola,East Texas,2024,2,47520,10348800,4214
+Haynesville,Harrison,East Texas,2024,2,40128,9398400,3700
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,2,89760,221760,1130
+Gulf Coast,Brazoria,Upper Texas Coast,2024,2,97152,327360,1336
+Permian Basin,Midland,West Texas,2024,3,1961000,5512000,25235
+Permian Basin,Reeves,West Texas,2024,3,1717200,6466000,20394
+Eagle Ford,Karnes,South Texas,2024,3,720800,1484000,7416
+Eagle Ford,DeWitt,South Texas,2024,3,572400,1325000,6077
+Haynesville,Panola,East Texas,2024,3,47700,10388000,4223
+Haynesville,Harrison,East Texas,2024,3,40280,9434000,3708
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,3,90100,222600,1133
+Gulf Coast,Brazoria,Upper Texas Coast,2024,3,97520,328600,1339
+Permian Basin,Midland,West Texas,2024,4,1968400,5532800,25284
+Permian Basin,Reeves,West Texas,2024,4,1723680,6490400,20433
+Eagle Ford,Karnes,South Texas,2024,4,723520,1489600,7430
+Eagle Ford,DeWitt,South Texas,2024,4,574560,1330000,6088
+Haynesville,Panola,East Texas,2024,4,47880,10427200,4231
+Haynesville,Harrison,East Texas,2024,4,40432,9469600,3715
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,4,90440,223440,1135
+Gulf Coast,Brazoria,Upper Texas Coast,2024,4,97888,329840,1341
+Permian Basin,Midland,West Texas,2024,5,1975800,5553600,25333
+Permian Basin,Reeves,West Texas,2024,5,1730160,6514800,20473
+Eagle Ford,Karnes,South Texas,2024,5,726240,1495200,7444
+Eagle Ford,DeWitt,South Texas,2024,5,576720,1335000,6100
+Haynesville,Panola,East Texas,2024,5,48060,10466400,4239
+Haynesville,Harrison,East Texas,2024,5,40584,9505200,3722
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,5,90780,224280,1137
+Gulf Coast,Brazoria,Upper Texas Coast,2024,5,98256,331080,1344
+Permian Basin,Midland,West Texas,2024,6,1983200,5574400,25382
+Permian Basin,Reeves,West Texas,2024,6,1736640,6539200,20512
+Eagle Ford,Karnes,South Texas,2024,6,728960,1500800,7459
+Eagle Ford,DeWitt,South Texas,2024,6,578880,1340000,6112
+Haynesville,Panola,East Texas,2024,6,48240,10505600,4247
+Haynesville,Harrison,East Texas,2024,6,40736,9540800,3729
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,6,91120,225120,1139
+Gulf Coast,Brazoria,Upper Texas Coast,2024,6,98624,332320,1346
+Permian Basin,Midland,West Texas,2024,7,1990600,5595200,25431
+Permian Basin,Reeves,West Texas,2024,7,1743120,6563600,20552
+Eagle Ford,Karnes,South Texas,2024,7,731680,1506400,7473
+Eagle Ford,DeWitt,South Texas,2024,7,581040,1345000,6124
+Haynesville,Panola,East Texas,2024,7,48420,10544800,4255
+Haynesville,Harrison,East Texas,2024,7,40888,9576400,3736
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,7,91460,225960,1141
+Gulf Coast,Brazoria,Upper Texas Coast,2024,7,98992,333560,1349
+Permian Basin,Midland,West Texas,2024,8,1998000,5616000,25480
+Permian Basin,Reeves,West Texas,2024,8,1749600,6588000,20592
+Eagle Ford,Karnes,South Texas,2024,8,734400,1512000,7488
+Eagle Ford,DeWitt,South Texas,2024,8,583200,1350000,6136
+Haynesville,Panola,East Texas,2024,8,48600,10584000,4264
+Haynesville,Harrison,East Texas,2024,8,41040,9612000,3744
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,8,91800,226800,1144
+Gulf Coast,Brazoria,Upper Texas Coast,2024,8,99360,334800,1352
+Permian Basin,Midland,West Texas,2024,9,2005400,5636800,25529
+Permian Basin,Reeves,West Texas,2024,9,1756080,6612400,20631
+Eagle Ford,Karnes,South Texas,2024,9,737120,1517600,7502
+Eagle Ford,DeWitt,South Texas,2024,9,585360,1355000,6147
+Haynesville,Panola,East Texas,2024,9,48780,10623200,4272
+Haynesville,Harrison,East Texas,2024,9,41192,9647600,3751
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,9,92140,227640,1146
+Gulf Coast,Brazoria,Upper Texas Coast,2024,9,99728,336040,1354
+Permian Basin,Midland,West Texas,2024,10,2012800,5657600,25578
+Permian Basin,Reeves,West Texas,2024,10,1762560,6636800,20671
+Eagle Ford,Karnes,South Texas,2024,10,739840,1523200,7516
+Eagle Ford,DeWitt,South Texas,2024,10,587520,1360000,6159
+Haynesville,Panola,East Texas,2024,10,48960,10662400,4280
+Haynesville,Harrison,East Texas,2024,10,41344,9683200,3758
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,10,92480,228480,1148
+Gulf Coast,Brazoria,Upper Texas Coast,2024,10,100096,337280,1357
+Permian Basin,Midland,West Texas,2024,11,2020200,5678400,25627
+Permian Basin,Reeves,West Texas,2024,11,1769040,6661200,20710
+Eagle Ford,Karnes,South Texas,2024,11,742560,1528800,7531
+Eagle Ford,DeWitt,South Texas,2024,11,589680,1365000,6171
+Haynesville,Panola,East Texas,2024,11,49140,10701600,4288
+Haynesville,Harrison,East Texas,2024,11,41496,9718800,3765
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,11,92820,229320,1150
+Gulf Coast,Brazoria,Upper Texas Coast,2024,11,100464,338520,1359
+Permian Basin,Midland,West Texas,2024,12,2027600,5699200,25676
+Permian Basin,Reeves,West Texas,2024,12,1775520,6685600,20750
+Eagle Ford,Karnes,South Texas,2024,12,745280,1534400,7545
+Eagle Ford,DeWitt,South Texas,2024,12,591840,1370000,6183
+Haynesville,Panola,East Texas,2024,12,49320,10740800,4296
+Haynesville,Harrison,East Texas,2024,12,41648,9754400,3772
+Gulf Coast,Harris (Houston),Upper Texas Coast,2024,12,93160,230160,1152
+Gulf Coast,Brazoria,Upper Texas Coast,2024,12,100832,339760,1362

@@ -1,0 +1,28 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# SQLite databases & heavy artifacts (> 100MB)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/*.db
+data/backups/
+outputs/exports/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# VS Code / Editor local configs
+.vscode/
+*.swp

@@ -1,0 +1,6 @@
+terminal_id,nombre_terminal,operador,ubicacion_canal,tipo_producto,capacidad_almacen_barriles,puestos_atraque_buques
+1,Houston Ship Channel Crude Terminal,Enterprise Products,Upper Channel,Crudo y Condensados,24000000,6
+2,Galena Park Terminal,Kinder Morgan,Galena Park,Refinados y Quimicos,13000000,4
+3,Pasadena Marine Terminal,Kinder Morgan,Pasadena,Gasolinas y Diesel,16000000,5
+4,Baytown Marine Terminal,ExxonMobil,Baytown,Crudo y Petroquimicos,18000000,7
+5,BOP Terminal Seabrook,Oiltanking / Magellan,Galveston Bay Entrance,Crudo para Exportacion (VLCC),10000000,3

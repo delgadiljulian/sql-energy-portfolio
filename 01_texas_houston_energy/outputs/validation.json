@@ -1,0 +1,284 @@
+{
+  "controles": [
+    {
+      "control": "integridad_sqlite",
+      "ok": true,
+      "detalle": "[('ok',)]"
+    },
+    {
+      "control": "claves_foraneas",
+      "ok": true,
+      "detalle": 0
+    },
+    {
+      "control": "huella_rrc_iwar_historico",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "filas_rrc_iwar_historico",
+      "ok": true,
+      "detalle": {
+        "origen": 102672,
+        "cargadas": 102672
+      }
+    },
+    {
+      "control": "corte_rrc_iwar_historico",
+      "ok": true,
+      "detalle": {
+        "mes": "2020-10",
+        "discordantes": 0
+      }
+    },
+    {
+      "control": "huella_rrc_p5_historico",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "filas_rrc_p5_historico",
+      "ok": true,
+      "detalle": {
+        "origen": 74429,
+        "cargadas": 74429
+      }
+    },
+    {
+      "control": "huella_demo_cuencas",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "filas_demo_cuencas",
+      "ok": true,
+      "detalle": {
+        "origen": 192,
+        "cargadas": 192
+      }
+    },
+    {
+      "control": "huella_archivo_empresas",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "huella_archivo_refinerias",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "huella_archivo_terminales",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "huella_archivo_wti_mensual",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "huella_archivo_wti_diario",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "huella_archivo_brent_diario",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "huella_eia_wti",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "filas_eia_wti",
+      "ok": true,
+      "detalle": {
+        "origen": 10236,
+        "cargadas": 10236
+      }
+    },
+    {
+      "control": "huella_eia_brent",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "filas_eia_brent",
+      "ok": true,
+      "detalle": {
+        "origen": 9967,
+        "cargadas": 9967
+      }
+    },
+    {
+      "control": "huella_eia_produccion_texas",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "filas_eia_produccion_texas",
+      "ok": true,
+      "detalle": {
+        "origen": 546,
+        "cargadas": 546
+      }
+    },
+    {
+      "control": "huella_eia_refinerias_texas",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "filas_eia_refinerias_texas",
+      "ok": true,
+      "detalle": {
+        "origen": 29,
+        "cargadas": 29
+      }
+    },
+    {
+      "control": "huella_rrc_iwar_actual",
+      "ok": true,
+      "detalle": "Manifiesto y base deben representar el mismo archivo"
+    },
+    {
+      "control": "filas_rrc_iwar_actual",
+      "ok": true,
+      "detalle": {
+        "origen": 121221,
+        "cargadas": 121221
+      }
+    },
+    {
+      "control": "corte_rrc_iwar_actual",
+      "ok": true,
+      "detalle": {
+        "mes": "2026-08",
+        "discordantes": 0
+      }
+    },
+    {
+      "control": "distritos_completos",
+      "ok": true,
+      "detalle": 0
+    },
+    {
+      "control": "produccion_meses_consecutivos",
+      "ok": true,
+      "detalle": []
+    },
+    {
+      "control": "separacion_datos_simulados",
+      "ok": true,
+      "detalle": 0
+    }
+  ],
+  "tablas": {
+    "fuentes": 14,
+    "operadores": 75120,
+    "operadores_p5_historico": 74429,
+    "pozos_inactivos_registros": 223893,
+    "pozos_inactivos": 216367,
+    "precios_observaciones": 20203,
+    "produccion_texas_mensual": 546,
+    "refinerias_texas": 29,
+    "demo_produccion_cuencas": 192,
+    "incidencias_carga": 16428,
+    "ejecucion_carga": 1
+  },
+  "pozos_por_fuente": [
+    {
+      "fuente_id": "rrc_iwar_actual",
+      "api_distintos": 117169,
+      "registros": 121221,
+      "api_con_varios_registros": 3561,
+      "api_con_varios_operadores": 155,
+      "api_con_varios_distritos": 69,
+      "profundidad_no_disponible": 169
+    },
+    {
+      "fuente_id": "rrc_iwar_historico",
+      "api_distintos": 99198,
+      "registros": 102672,
+      "api_con_varios_registros": 3138,
+      "api_con_varios_operadores": 132,
+      "api_con_varios_distritos": 25,
+      "profundidad_no_disponible": 181
+    }
+  ],
+  "incidencias": [
+    {
+      "fuente_id": "rrc_iwar_actual",
+      "campo": "API Depth",
+      "motivo": "Profundidad no positiva; se conserva NULL",
+      "n": 169
+    },
+    {
+      "fuente_id": "rrc_iwar_actual",
+      "campo": "Original Completion Date",
+      "motivo": "Fecha inválida; se conserva NULL",
+      "n": 1372
+    },
+    {
+      "fuente_id": "rrc_iwar_actual",
+      "campo": "Original Completion Date",
+      "motivo": "Fecha no informada; se conserva NULL",
+      "n": 77
+    },
+    {
+      "fuente_id": "rrc_iwar_historico",
+      "campo": "API Depth",
+      "motivo": "Profundidad no positiva; se conserva NULL",
+      "n": 181
+    },
+    {
+      "fuente_id": "rrc_iwar_historico",
+      "campo": "Original Completion Date",
+      "motivo": "Fecha inválida; se conserva NULL",
+      "n": 1449
+    },
+    {
+      "fuente_id": "rrc_iwar_historico",
+      "campo": "Original Completion Date",
+      "motivo": "Fecha no informada; se conserva NULL",
+      "n": 65
+    },
+    {
+      "fuente_id": "rrc_p5_historico",
+      "campo": "Last P5 Filed Date",
+      "motivo": "Fecha no informada; se conserva NULL",
+      "n": 13115
+    }
+  ],
+  "precios": [
+    {
+      "referencia": "BRENT",
+      "filas": 9967,
+      "inicio": "1987-05-20",
+      "fin": "2026-09-01",
+      "ausentes": 0
+    },
+    {
+      "referencia": "WTI",
+      "filas": 10236,
+      "inicio": "1986-01-02",
+      "fin": "2026-09-01",
+      "ausentes": 0
+    }
+  ],
+  "produccion": [
+    {
+      "meses": 546,
+      "inicio": "1981-01-01",
+      "fin": "2026-06-01"
+    }
+  ],
+  "carga_id": "07f9c9c9-3084-4a3c-96fe-563b3153f8d6",
+  "iniciado_utc": "2026-09-03T16:57:44.078068+00:00",
+  "huella_codigo": "33743936ba4ce0ebdd00381b8c3f78b203ef90d54e6ab6912921ac86ddf8fa39",
+  "base": "houston_energy_v2.db",
+  "respaldo": "C:\\Users\\julla\\OneDrive - Económicas - UBA\\Escritorio\\Julian Delgadillo Marin\\SQL\\01_texas_houston_energy\\data\\backups\\houston_energy_v2_20260903T165958714768Z.db"
+}
