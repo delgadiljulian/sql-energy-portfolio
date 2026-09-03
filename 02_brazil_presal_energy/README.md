@@ -1,3 +1,3 @@
 ﻿# Brazil Pre-Salt Energy Analytics (Upcoming)
 
-This project directory is reserved for SQL analytics on Brazil's offshore Pre-Salt deepwater exploration (Santos and Campos basins), Petrobras operational metrics, and ANP (Agencia Nacional do Petroleo) open data.
+This directory is reserved for upcoming SQL analytics on Brazilian offshore pre-salt exploration across the Santos and Campos basins, operator production metrics, and Agencia Nacional do Petroleo (ANP) regulatory records.

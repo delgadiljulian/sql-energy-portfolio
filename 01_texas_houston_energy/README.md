@@ -1,46 +1,37 @@
-﻿# Texas & Houston Energy Analytics with SQL
+﻿# Texas and Houston Energy Analytics
 
-A professional SQL analytics project powered by SQLite, analyzing Texas energy infrastructure, crude oil pricing benchmarks (WTI vs Brent), refining hubs, and upstream wells data.
-
----
-
-## 📌 Analytical Capabilities
-
-- **Texas Crude Oil Production**: Historical and monthly trends from the U.S. Energy Information Administration (EIA).
-- **Crude Oil Market Benchmarks**: Daily spot prices for WTI (West Texas Intermediate) and Brent, plus the calculated Brent-WTI spread.
-- **Gulf Coast Refining Capacity**: Atmospheric crude oil distillation and downstream capacity from the EIA-820 refinery report across Texas refining districts.
-- **Upstream Wells Analysis**: Well distribution, technical depths, county-level production trends, and environmental plugging liabilities (*Orphan Wells*) from Railroad Commission of Texas (RRC) regulatory filings.
+An applied SQL analytics project using SQLite to analyze Texas energy infrastructure, crude oil pricing benchmarks, refining capacity, and upstream well records.
 
 ---
 
-## 🚀 Quick Start
+## Analytical Scope
 
-Run SQL queries directly using the Python CLI runner:
+- Texas Crude Oil Production: Monthly and annual volumetric trends reported by the U.S. Energy Information Administration (EIA).
+- Crude Oil Market Benchmarks: Historical daily spot prices for West Texas Intermediate (WTI) and Brent, including the calculated price differential.
+- Gulf Coast Refining Capacity: Atmospheric distillation and secondary unit processing capacities from the EIA-820 refinery survey.
+- Upstream Well Inventory: Regulatory records, technical depths, geographic distribution, and inactive well plugging calculations from the Railroad Commission of Texas (RRC).
+
+---
+
+## Execution and Interface
+
+Run analytical scripts through the command line runner:
 
 ```powershell
-# Run the master queries log:
 python run.py
-
-# Run an ad-hoc query directly from terminal:
-python run.py "SELECT condado, COUNT(*) AS total_wells FROM pozos_texas GROUP BY condado ORDER BY total_wells DESC LIMIT 5;"
-
-# Run the test suite:
-python -m unittest discover tests
 ```
 
-Or connect directly via **DBeaver** or **VS Code SQLite Viewer**:
-* Database Path: `data/houston_energy.db`
-* Queries: `queries/complete_queries_log.sql`
+Database connection configuration for external SQL clients:
+- Database File: data/houston_energy.db
+- Query File: queries/complete_queries_log.sql
 
 ---
 
-## 📁 Directory Structure
+## Project Structure
 
-- `queries/`: Documented SQL analytical queries (`complete_queries_log.sql`).
-- `data/`:
-  - `houston_energy.db`: SQLite database containing indexed tables and analytical views.
-  - `raw/`: Raw official source datasets (EIA, RRC, Port of Houston).
-- `scripts/`: Data ingestion, validation, and pipeline scripts (`build_database.py`, `validate_database.py`, etc.).
-- `docs/`: Technical data dictionary (`DATA_DICTIONARY.md`), methodology, and source documentation (`SOURCES.md`).
-- `outputs/`: Data validation reports (`VALIDATION.md`).
-- `tests/`: Automated integration and unit tests (`test_project.py`).
+- queries/: Prepared SQL analytical scripts.
+- data/: Structured SQLite database file and raw regulatory source files.
+- scripts/: Data pipeline, ingestion, and validation scripts.
+- docs/: Technical data dictionary and methodology documentation.
+- outputs/: Verification and data quality reports.
+- tests/: Test suite for schema consistency and query validation.

@@ -1,41 +1,43 @@
-﻿# 🛢️ SQL Energy Analytics Portfolio
+﻿# SQL Energy Analytics Portfolio
 
-A production-grade SQL analytics portfolio focusing on the global energy sector, oil & gas markets, power grids, and downstream infrastructure using SQLite, Python, and official regulatory data.
-
----
-
-## 🗂️ Portfolio Projects
-
-1. **[`01_texas_houston_energy/`](01_texas_houston_energy/)**  
-   * **Scope**: Texas Oil & Gas Upstream, Houston Ship Channel refining & maritime hubs, WTI vs Brent market dynamics, and environmental plugging liabilities.
-   * **Data Sources**: Official Railroad Commission of Texas (RRC) regulatory filings and U.S. Energy Information Administration (EIA).
-   * **Key Techniques**: Complex `JOIN`s, `GROUP BY`, `HAVING`, Conditional `CASE WHEN`, Common Table Expressions (`WITH`), and Window Functions (`ROW_NUMBER() OVER (PARTITION BY ...)`).
-
-2. **[`02_brazil_presal_energy/`](02_brazil_presal_energy/)** *(Upcoming)*  
-   * **Scope**: Brazil Pre-Salt deepwater exploration (Santos and Campos basins), Petrobras operational metrics, and ANP open data.
-
-3. **[`03_colombia_energy_analytics/`](03_colombia_energy_analytics/)** *(Upcoming)*  
-   * **Scope**: Colombian hydrocarbon basins (Llanos Orientales, Middle Magdalena Valley), Ecopetrol production assets, and ANH regulatory data.
+A structured SQL analytics portfolio focusing on the global energy sector, oil and gas markets, power infrastructure, and regulatory filings using SQLite, Python, and official public datasets.
 
 ---
 
-## 🚀 Quick Start
+## Portfolio Projects
 
-To explore the Texas & Houston project:
+1. [01_texas_houston_energy/](01_texas_houston_energy/)
+   - Scope: Texas upstream production, Houston Ship Channel refining and marine terminal hubs, WTI versus Brent crude pricing benchmarks, and orphan well environmental liabilities.
+   - Data Sources: Railroad Commission of Texas (RRC) regulatory datasets and U.S. Energy Information Administration (EIA).
+   - Core SQL Concepts: Table joins, groupings, aggregate filtering, conditional expressions, common table expressions, and analytical window functions.
+
+2. [02_brazil_presal_energy/](02_brazil_presal_energy/) (Upcoming)
+   - Scope: Brazilian offshore pre-salt exploration across the Santos and Campos basins, operator production metrics, and Agencia Nacional do Petroleo (ANP) public data.
+
+3. [03_colombia_energy/](03_colombia_energy/) (Upcoming)
+   - Scope: Colombian sedimentary basins including Llanos Orientales and Middle Magdalena Valley, field-level output, and Agencia Nacional de Hidrocarburos (ANH) regulatory data.
+
+---
+
+## Getting Started
+
+To explore the Texas and Houston project:
 
 ```bash
 cd 01_texas_houston_energy
-# Run SQL queries using the CLI runner:
 python run.py
-
-# Or open the SQLite database in DBeaver / VS Code:
-# Path: 01_texas_houston_energy/data/houston_energy.db
 ```
+
+Database connection details for DBeaver or database clients:
+- Engine: SQLite 3
+- Path: 01_texas_houston_energy/data/houston_energy.db
+- Query File: 01_texas_houston_energy/queries/complete_queries_log.sql
 
 ---
 
-## 🛠️ Tech Stack & Tools
-* **SQL Engine**: SQLite 3
-* **GUI / Query Client**: DBeaver Community / VS Code SQLite Viewer
-* **Scripting & Data Pipelines**: Python 3.13 (Standard Library + Data Processing)
-* **Version Control**: Git & GitHub
+## Technical Stack
+
+- Database Engine: SQLite 3
+- Interface: DBeaver Community, Visual Studio Code
+- Environment: Python 3.13
+- Version Control: Git, GitHub
