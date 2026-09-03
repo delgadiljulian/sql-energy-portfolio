@@ -1,76 +1,46 @@
-# SQL aplicado a la energía de Texas y Houston
+﻿# Texas & Houston Energy Analytics with SQL
 
-Proyecto de aprendizaje y portafolio con SQLite. Separa datos oficiales observados, archivos heredados, información manual no verificada y una muestra simulada.
+A professional SQL analytics project powered by SQLite, analyzing Texas energy infrastructure, crude oil pricing benchmarks (WTI vs Brent), refining hubs, and upstream wells data.
 
-## Qué puede responder
+---
 
-- Evolución de la producción mensual total de crudo de Texas (EIA).
-- Precios diarios WTI y Brent y su diferencial (EIA).
-- Capacidad operable de refinación por instalación y distrito de refinación en Texas (EIA-820).
-- Pozos inactivos del IWAR por corte, condado y operador (RRC).
-- Ejercicios didácticos con datos simulados, siempre identificados como tales.
+## 📌 Analytical Capabilities
 
-No permite medir producción por cuenca o empresa, utilización efectiva de refinerías, ni afirmar sedes corporativas actuales. El IWAR contiene pozos **inactivos**, no todos los pozos de Texas.
+- **Texas Crude Oil Production**: Historical and monthly trends from the U.S. Energy Information Administration (EIA).
+- **Crude Oil Market Benchmarks**: Daily spot prices for WTI (West Texas Intermediate) and Brent, plus the calculated Brent-WTI spread.
+- **Gulf Coast Refining Capacity**: Atmospheric crude oil distillation and downstream capacity from the EIA-820 refinery report across Texas refining districts.
+- **Upstream Wells Analysis**: Well distribution, technical depths, county-level production trends, and environmental plugging liabilities (*Orphan Wells*) from Railroad Commission of Texas (RRC) regulatory filings.
 
-## Inicio rápido
+---
 
-Desde esta carpeta:
+## 🚀 Quick Start
 
-```powershell
-python ejecutar.py
-python ejecutar.py consultas/03_pozos_inactivos_actuales.sql
-python ejecutar.py --todas --limite 15
-python ejecutar.py consultas/05_produccion_observada.sql --csv outputs/exportaciones
-```
-
-El ejecutor abre `data/houston_energy_v2.db` en modo lectura. Una consulta que intente cambiarla falla, salvo que se use deliberadamente `--escritura`.
-
-## Reconstrucción reproducible
-
-Las fuentes ya descargadas se verifican por SHA-256 antes de cada carga. La base se construye en un archivo temporal, pasa controles y solo entonces sustituye la versión anterior:
+Run SQL queries directly using the Python CLI runner:
 
 ```powershell
-python preparar.py
-python scripts/validar_base.py
-python -m unittest discover -s tests -v
+# Run the master queries log:
+python run.py
+
+# Run an ad-hoc query directly from terminal:
+python run.py "SELECT condado, COUNT(*) AS total_wells FROM pozos_texas GROUP BY condado ORDER BY total_wells DESC LIMIT 5;"
+
+# Run the test suite:
+python -m unittest discover tests
 ```
 
-Para actualizar los archivos oficiales:
+Or connect directly via **DBeaver** or **VS Code SQLite Viewer**:
+* Database Path: `data/houston_energy.db`
+* Queries: `queries/complete_queries_log.sql`
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
-.\.venv\Scripts\python.exe preparar.py --actualizar
-```
+---
 
-Cada actualización crea un lote inmutable. Si falla una descarga, conversión o validación, el manifiesto y la base anteriores se conservan.
+## 📁 Directory Structure
 
-## Estructura
-
-- `consultas/`: guías SQL ordenadas y área de práctica.
-- `data/fuentes_oficiales.json`: procedencia, fechas, unidades, hashes y conteos oficiales.
-- `data/fuentes_heredadas.json`: inventario y limitaciones de los archivos iniciales.
-- `data/raw/oficiales/`: archivos oficiales y sus versiones normalizadas.
-- `sql/esquema.sql`: modelo, restricciones, índices y vistas.
-- `scripts/descargar_fuentes.py`: descarga y conversión.
-- `scripts/construir_base.py`: carga atómica y controles.
-- `scripts/validar_base.py`: validación independiente en lectura.
-- `outputs/VALIDACION.md`: último resultado legible de los controles.
-- `docs/`: fuentes, diccionario y decisiones metodológicas.
-- `data/backups/`: copias locales ignoradas por control de versiones.
-
-## Ruta de aprendizaje
-
-1. `01_primeras_consultas.sql`: filtros y orden.
-2. `02_metricas_houston.sql`: agregaciones y funciones de ventana.
-3. `03_pozos_inactivos_actuales.sql`: granularidad, deduplicación y datos regulatorios.
-4. `04_precios_y_ventanas.sql`: series temporales, `LAG` y medias móviles.
-5. `05_produccion_observada.sql`: conversiones, comparaciones anuales y joins temporales.
-6. `06_ejercicio_datos_simulados.sql`: práctica claramente separada de la evidencia observada.
-7. `bitacora_consultas_completas.sql`: consultas de la sesión con alcance, denominadores y lenguaje corregidos.
-
-Consulta [FUENTES.md](docs/FUENTES.md) y [DICCIONARIO_DATOS.md](docs/DICCIONARIO_DATOS.md) antes de interpretar resultados.
-
-## Base inicial conservada
-
-`data/houston_energy.db` es la base inicial. Estaba abierta durante este fortalecimiento y Windows no permitió renombrarla; los comandos del proyecto usan únicamente `houston_energy_v2.db`. El respaldo integral anterior a los cambios permanece en `data/backups/`.
+- `queries/`: Documented SQL analytical queries (`complete_queries_log.sql`).
+- `data/`:
+  - `houston_energy.db`: SQLite database containing indexed tables and analytical views.
+  - `raw/`: Raw official source datasets (EIA, RRC, Port of Houston).
+- `scripts/`: Data ingestion, validation, and pipeline scripts (`build_database.py`, `validate_database.py`, etc.).
+- `docs/`: Technical data dictionary (`DATA_DICTIONARY.md`), methodology, and source documentation (`SOURCES.md`).
+- `outputs/`: Data validation reports (`VALIDATION.md`).
+- `tests/`: Automated integration and unit tests (`test_project.py`).
